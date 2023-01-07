@@ -1,0 +1,10 @@
+.pill {
+  font-size: 16px;
+  background: none;
+  border: 10px;
+  text-decoration: none;
+  padding: 5px;
+  border: 1px solid #2e3156;
+  border-radius: 5px;
+  margin-right: 15px;
+}

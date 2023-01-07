@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+main {
+  padding: 40px 20px;
+  margin: auto;
+  max-width: 1440px;
+}
+.background-colour {
+  background-color: #deeded;
+}
+@media screen and (min-width: 786px) {
+  main {
+    padding: 60px 40px;
+  }
+}
+@media screen and (min-width: 1240px) {
+  main {
+    padding: 75px 48px;
+  }
+}

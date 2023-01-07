@@ -1,0 +1,158 @@
+.heroNameM {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+.ReactModal__Overlay {
+  background-color: rgba(46, 49, 86, 0.9) !important;
+}
+.modal-blur {
+  width: 756px;
+  display: block;
+  justify-content: center;
+  margin: auto;
+  background-color: #deeded;
+  padding: 41px;
+  z-index: 11;
+  margin-top: 48px;
+}
+.eggGrp {
+  display: flex;
+  flex-direction: column;
+}
+.Modal-header {
+  display: flex;
+}
+.Modal-crosss {
+  margin-left: 46px;
+}
+.pokemonName {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 35.16px;
+}
+.pokeMonId {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 20px;
+  border-left: 1px solid #333;
+  padding: 20px;
+  border-right: 1px solid #333;
+}
+.pokemonDis {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+}
+.modal-cr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.modalLines {
+  border-left: 1px solid #333;
+}
+.modal-bg1 {
+  display: block;
+  justify-content: center;
+  margin: 12px;
+  outline: #2e3156;
+}
+.card-block {
+  margin: 0 41px;
+  margin: auto;
+}
+.pill {
+  font-size: 16px;
+  background: none;
+  border: 10px;
+  text-decoration: none;
+  padding: 5px;
+  border: 1px solid #2e3156;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.btn-modal {
+  outline: none;
+}
+.hW-sec {
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+}
+.hW-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.type-pill {
+  display: flex;
+}
+.typePill {
+  display: flex;
+  justify-content: space-between;
+}
+.measurement {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+}
+@media (min-width: 786px) {
+  .heroNameM {
+    margin: 0 12px;
+  }
+  .hW-sec {
+    margin: 12px;
+  }
+  .modal-bg1 {
+    display: block;
+    justify-content: center;
+    height: 1162px;
+    width: 756px;
+    margin: auto;
+    outline: #2e3156;
+    background: #deeded;
+  }
+  .card-block {
+    margin: auto;
+    margin: 0 41px;
+  }
+  /* .ReactModal__Overlay--after-open {
+    position: absolute;
+    margin-top: 200px;
+  } */
+}
+.descriotion {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.16px;
+  margin-top: 16px;
+}
+.card-descirption {
+  display: flex;
+}
+.text-modal {
+  margin-top: 20px;
+  width: 675px;
+  background-color: #2e3156;
+  display: block;
+  justify-content: center;
+  margin: auto;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.btn-txtModal {
+  margin-top: 50px;
+  background-color: #fff;
+  display: flex;
+  align-items: flex-end;
+}

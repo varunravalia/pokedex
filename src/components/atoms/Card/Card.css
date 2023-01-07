@@ -1,0 +1,38 @@
+.card {
+  padding: 20px;
+  height: 277px;
+  width: 156px;
+  border-radius: 12px;
+  border-color: #2e3156;
+  border-width: 1px;
+  border-style: dashed;
+}
+.card-image {
+  height: 50%;
+  width: 100%;
+  padding: 8px;
+  object-fit: contain;
+  background-color: none;
+}
+.card-title {
+  margin-top: 46px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.card-Id {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 4px;
+}
+.card-discription {
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 194px;
+  }
+}
